@@ -11,4 +11,5 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/resources/Features/login.feature",glue =
         "net.bancodebogota.siebeluat.stepDefinitions",snippets = CucumberOptions.SnippetType.CAMELCASE)
 public class LoginRunner {
+
 }

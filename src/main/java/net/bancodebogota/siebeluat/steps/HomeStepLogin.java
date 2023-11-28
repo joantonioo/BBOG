@@ -13,4 +13,13 @@ public class HomeStepLogin {
         homePage.openUrl("http://crmprue:8020/psp/ps/?cmd=login&languageCd=ESP");
     }
 
+
+    @Step("login on PeopleSoft")
+    public void loginPeopleSoft(){
+
+        homePage.getDriver().findElement(homePage.getCHK_USERID()).sendKeys("42430312");
+        homePage.getDriver().findElement(homePage.getCHK_PASSWORD()).sendKeys("NOVIEMBRE2023+");
+        homePage.getDriver().findElement(homePage.getBTN_SUBMIT()).click();
+    }
+
 }
