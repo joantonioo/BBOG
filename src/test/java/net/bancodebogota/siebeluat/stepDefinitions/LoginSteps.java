@@ -1,13 +1,19 @@
 package net.bancodebogota.siebeluat.stepDefinitions;
 
 import io.cucumber.java.en.*;
+import net.bancodebogota.siebeluat.steps.HomeStepLogin;
+import net.serenitybdd.annotations.Steps;
 
 public class LoginSteps {
+
+    @Steps
+    HomeStepLogin homeStepLogin;
 
 
     @Given("since the user is on the main siebel page")
     public void since_the_user_is_on_the_main_siebel_page() {
-      System.out.println("hello");
+          homeStepLogin.openBrower();
+
     }
     @When("the user enters siebel access credentials")
     public void the_user_enters_siebel_access_credentials() {
