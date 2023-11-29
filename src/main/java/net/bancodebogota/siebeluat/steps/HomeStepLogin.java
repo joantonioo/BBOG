@@ -16,8 +16,6 @@ public class HomeStepLogin {
     @Page
     PeopleSoftHomePage homePage;
 
-   static int tiempo = 10;
-
 
     @Step("Open Browser")
     public void openBrower(){

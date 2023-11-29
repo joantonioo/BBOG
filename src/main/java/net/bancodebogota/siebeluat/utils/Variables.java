@@ -8,6 +8,21 @@ public class Variables {
     static String UserId;
     static String Password;
 
+
+    static String UserIdSiebel;
+
+    static String PasswordSiebel;
+
+    public static String getUserIdSiebel() {
+        UserIdSiebel = "JCAS20";
+        return UserIdSiebel;
+    }
+
+    public static String getPasswordSiebel() {
+        PasswordSiebel = "Qapruebas2023**";
+        return PasswordSiebel;
+    }
+
     static int tiempoEspera;
 
     public static String getUserId() {

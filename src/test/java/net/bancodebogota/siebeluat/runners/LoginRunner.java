@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/Features/login.feature",glue =
-        "net.bancodebogota.siebeluat.stepDefinitions",snippets = CucumberOptions.SnippetType.CAMELCASE)
+        "net.bancodebogota.siebeluat.stepDefinitions",tags = "@LoginSuccess",snippets = CucumberOptions.SnippetType.CAMELCASE)
 public class LoginRunner {
 
 }
