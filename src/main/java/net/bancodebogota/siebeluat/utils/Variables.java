@@ -2,6 +2,13 @@ package net.bancodebogota.siebeluat.utils;
 
 public class Variables {
 
+    static String NameFrame;
+
+    public static String getNameFrame() {
+        NameFrame ="TargetContent";
+        return NameFrame;
+    }
+
     static String urlPeopleSoft;
     static String Urlsiebel;
 

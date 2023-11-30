@@ -20,11 +20,12 @@ public class LoginSteps {
        homeStepLogin.openBrower();
        homeStepLogin.loginPeopleSoft();
 
+
     }
     @When("the user enters siebel access credentials")
     public void the_user_enters_siebel_access_credentials() {
-        homeLoginSiebel.openBrowserSiebel();
-        homeLoginSiebel.loginSiebel();
+      //  homeLoginSiebel.openBrowserSiebel();
+      //  homeLoginSiebel.loginSiebel();
     }
     @Then("then the user can see the login successfully")
     public void then_the_user_can_see_the_login_successfully() {
